@@ -1,12 +1,34 @@
 {
   "name": "mongo-oplog-observable",
   "description": "Creates an observable from a mongodb-oplog",
-  "author": "Christian Blaschke <mail@platdesign.de>",
+  "author":{
+    "name": "Christian Blaschke",
+    "email": "mail@platdesign.de",
+    "url": "https://github.com/platdesign"
+  },
   "version": "0.0.1",
+  "homepage": "https://github.com/platdesign/mongo-oplog-observable",
+  "main": "index.js",
   "dependencies": {
     "mongo-oplog-cursor": "^0.2.0",
     "mongodb": "^2.1.11",
     "rx": "^4.1.0"
   },
-  "repository": "https://github.com/platdesign/mongo-oplog-observable.git"
+  "repository": {
+    "type":"git",
+    "url":"git@github.com:platdesign/mongo-oplog-observable.git"
+  },
+  "keywords": [
+    "rx",
+    "rxjs",
+    "mongodb",
+    "oplog",
+    "observable",
+    "realtime",
+    "cursor",
+    "data",
+    "npm",
+    "javascript"
+  ],
+  "license": "MIT"
 }
