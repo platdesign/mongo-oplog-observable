@@ -1,12 +1,12 @@
 {
   "name": "mongo-oplog-observable",
   "description": "Creates an observable from a mongodb-oplog",
-  "author":{
+  "author": {
     "name": "Christian Blaschke",
     "email": "mail@platdesign.de",
     "url": "https://github.com/platdesign"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/platdesign/mongo-oplog-observable",
   "main": "index.js",
   "dependencies": {
@@ -15,8 +15,8 @@
     "rx": "^4.1.0"
   },
   "repository": {
-    "type":"git",
-    "url":"git@github.com:platdesign/mongo-oplog-observable.git"
+    "type": "git",
+    "url": "git@github.com:platdesign/mongo-oplog-observable.git"
   },
   "keywords": [
     "rx",
