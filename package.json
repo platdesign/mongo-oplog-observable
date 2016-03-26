@@ -8,5 +8,5 @@
     "mongodb": "^2.1.11",
     "rx": "^4.1.0"
   },
-  "repository": ""
+  "repository": "https://github.com/platdesign/mongo-oplog-observable.git"
 }
