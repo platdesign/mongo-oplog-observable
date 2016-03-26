@@ -1,0 +1,8 @@
+{
+  "name": "mongo-oplog-observable",
+  "description": "Creates an rx observable from a mongodb-oplog",
+  "author": "Christian Blaschke <mail@platdesign.de>",
+  "version": "0.0.0",
+  "dependencies": {}
+}
+
