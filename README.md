@@ -10,10 +10,10 @@ Creates an observable from a mongodb-oplog.
 
 # Usage
 
-## OplogObservable(mongoURI, namespace)
+## OplogObservable(config)
 
-- **mongoURI** [String] [mongodb connection-string](https://docs.mongodb.org/manual/reference/connection-string/)
-- **namespace** [String] database, database.*, *.database, (databaseA|databaseB), database.collection, (db|dbX|dbY)$, etc.
+- **config.uri** [String] [mongodb connection-string](https://docs.mongodb.org/manual/reference/connection-string/)
+- **config.ns** [String] database, database.*, *.database, (databaseA|databaseB), database.collection, (db|dbX|dbY)$, etc.
 
 
 
