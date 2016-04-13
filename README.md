@@ -22,7 +22,10 @@ Creates an observable from a mongodb-oplog.
 ```javascript
 var OplogObservable = require('mongo-oplog-observable');
 
-var oplog = OplogObservable('mongodb://127.0.0.1:12345/local', 'myDatabase.myCollection');
+var oplog = OplogObservable({
+	uri: 'mongodb://127.0.0.1:12345/local', 
+	ns: 'myDatabase.myCollection'
+});
 
 var inserts = oplog.filter(function(e){ return e.op === 'i'; });
 var updates = oplog.filter(function(e){ return e.op === 'u'; });
