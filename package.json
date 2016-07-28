@@ -10,7 +10,7 @@
   "homepage": "https://github.com/platdesign/mongo-oplog-observable",
   "main": "index.js",
   "dependencies": {
-    "mongo-oplog-cursor": "^0.2.0",
+    "mongo-oplog-cursor": "^1.0.0",
     "mongodb": "^2.1.11",
     "rx": "^4.1.0"
   },
