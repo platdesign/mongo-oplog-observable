@@ -11,7 +11,7 @@
   "main": "index.js",
   "dependencies": {
     "mongo-oplog-cursor": "^1.0.0",
-    "mongodb": "^2.2.5",
+    "mongodb": "^2.2.10",
     "rx": "^4.1.0"
   },
   "repository": {
